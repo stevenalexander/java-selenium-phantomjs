@@ -16,5 +16,5 @@ docker build -t stevenalexander/java-selenium-phantomjs .
 Test PhantomJS:
 
 ```
-docker run -it --rm phantomjs /phantomjs/bin/phantomjs -v
+docker run -it --rm stevenalexander/phantomjs phantomjs -v
 ```
